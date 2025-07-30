@@ -63,20 +63,81 @@
 
 // -- Write a function that finds and prints the smallest number among three given input numbers
 
-function findSmallestNum(a,b,c){
-if (a<b && a<c){
-    console.log("a is smallest number");
+// function findSmallestNum(a,b,c){
+// if (a<b && a<c){
+//     console.log("a is smallest number");
     
-}
-else if(b<c && b<a){
-    console.log("B is smallest number");
+// }
+// else if(b<c && b<a){
+//     console.log("B is smallest number");
     
-}
+// }
 
-else{
-    console.log("c is smallest number");
+// else{
+//     console.log("c is smallest number");
     
-}
-}
+// }
+// }
 
-findSmallestNum(3,1,5)
+// findSmallestNum(3,1,5)
+
+
+// --- Second Method---
+
+// function  smallestNo(a,b,c) {
+    
+//     let smallest=a;
+//     if(smallest<b && smallest<c){
+//         console.log(smallest,"is small number");
+        
+//     }
+   
+//    else if(b<smallest && b<c) {
+//     console.log(b," is smallest"); 
+//    }
+//    else{
+//     console.log(c," is smallest");
+    
+//    }
+// }
+
+// smallestNo(4,5,3)
+
+
+
+
+    //  -- Question No -06
+
+//    --- //  Write a function to reverse a string
+
+// function reverseString(inputString){
+        
+//     let reversedValue=""
+//     if(typeof inputString !== "string"){
+//         console.log("Enter only string");
+//         return;
+//     }
+
+// for(let i=inputString.length-1; i>=0; i--){
+// reversedValue=reversedValue+inputString[i]
+// }
+// console.log(reversedValue);
+
+// }
+// reverseString("Ankit")
+
+
+
+
+//Second Method of reverse a string
+
+// let str="Ankit Mishra" 
+// let reversedValue=str.split('').reverse().join('').replaceAll(' ','')
+// console.log(reversedValue);
+
+
+
+
+
+     // Question NO -07
+
